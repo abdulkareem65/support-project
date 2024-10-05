@@ -1,0 +1,21 @@
+MR Git is a distributed version control system used to track changes in source code during software development. It allows multiple developers to work on a project simultaneously, helps manage different versions of the code, and facilitates collaboration by providing a history of changes. Here are key concepts in Git:
+
+Repository (Repo): A storage location where your project files and the history of all changes are kept. It can be local (on your machine) or remote (on services like GitHub, GitLab, or Bitbucket).
+
+Commit: A snapshot of your project at a particular point in time. Each commit represents a set of changes with a unique identifier (a hash), and it usually includes a message describing what has been changed.
+
+Branch: A separate line of development within a repository. The default branch is usually called main or master, but you can create other branches to work on specific features or fixes without affecting the main project.
+
+Merge: The process of integrating changes from one branch into another. For example, after finishing work on a feature branch, you would merge it into the main branch.
+
+Pull Request (PR): A request to review and merge changes from one branch into another, typically used in collaborative projects, especially on platforms like GitHub.
+
+Push: Sending your committed changes from your local repository to a remote repository.
+
+Pull: Fetching the latest changes from a remote repository and merging them into your local copy.
+
+Clone: Creating a local copy of a remote repository on your machine.
+
+Staging Area: A place where you prepare changes before committing them. When you make changes to files, you need to stage them first before committing.
+
+Distributed Nature: Git allows every user to have a full copy of the repository, including its history. This makes it highly resilient and enables of
